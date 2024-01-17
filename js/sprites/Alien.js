@@ -25,6 +25,6 @@ class Alien {
     move(){
 
         this.node.style.left = 100+Math.random()*(window.innerWidth-200)+"px";
-        this.node.style.top = "400px";
+        this.node.style.top = "600px";
     }
 }
